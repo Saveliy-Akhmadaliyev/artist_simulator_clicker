@@ -1,0 +1,51 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html, body {
+    background: #1a1f25;
+    font-family: 'Roboto', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.clear {
+    clear: both;
+}
+
+.prequel {
+    float: left;
+    color: white;
+    font-size: 1.3em;
+    padding: 16px;
+}
+
+.shop {
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+.click-item:active, .boost-button:active {
+    opacity: 0.7;
+}
+
+
+.image-hover {
+    width: 612px;
+    height: 408px;
+    background-image: url("/click.png"); /* Исходное фоновое изображение */
+    background-size: cover; /* Покрыть всю область элемента */
+    transition: background-image 0.5s ease-in-out; /* Плавный переход */
+}
+
+.image-hover:hover {
+    background-image: url("/bg.png"); /* Изменение при наведении */
+}
+
+.boost-button {
+    border-radius: 6px;
+}

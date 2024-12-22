@@ -1,0 +1,27 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+
+img {
+    text-align: center;
+}
+
+label {
+    color: white;
+    margin: 20px;
+    font-size: large;
+}
+
+input[type="submit"] {
+    background-color: #1a1f25;
+    color: white;
+}
+
+    input[type="submit"]:hover {
+        background-color: #e6b333
+    }
+
+form {
+    position: center;
+    width: 50%;
+    text-align: center;
+    font-size: large;
+}
